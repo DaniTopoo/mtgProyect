@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col gap-3">
+  <div
+    class="flex flex-col gap-3 h-full min-h-screen w-full bg-gradient-to-r from-gray-900 to-gray-500"
+  >
     <HomeHeader />
     <RouterView></RouterView>
   </div>

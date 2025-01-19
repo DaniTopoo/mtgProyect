@@ -1,5 +1,6 @@
 <template>
-  <p class="text-9xl text-white">PAGINA PRINCIPAL</p>
+  <p class="text-white">info</p>
+  <div class="debug-box">{{ magicData }}</div>
 </template>
 
 <script setup>
