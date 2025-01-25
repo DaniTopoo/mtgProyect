@@ -38,6 +38,7 @@ axios.get(cardsUrl).then((response) => {
 
 .scrollbar-custom::-webkit-scrollbar-track {
   background: #333333;
+  border-radius: 10px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
