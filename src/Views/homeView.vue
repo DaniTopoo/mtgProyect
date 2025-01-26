@@ -1,17 +1,57 @@
 <template>
-  <div class="flex min-h-screen items-center justify-center">
-    <div class="homeBox">fiygsdyfguif</div>
+  <div class="flex flex-col min-h-screen items-center justify-center">
+    <div class="homeBox flex justify-center rounded-t-lg">
+      <p class="text-6xl font-serif">Welcome to Magic the Gathering wiki</p>
+    </div>
+    <div class="homeBox grid grid-cols-3 justify-items-center rounded-b-lg">
+      <RouterLink
+        class="flex items-center gap-2 text-4xl text-black hover:text-orange-600"
+        v-for="link in links"
+        :key="link.path"
+        :to="link.path"
+      >
+        <component :is="link.icon" class="size-20" />
+        {{ link.name }}
+      </RouterLink>
+    </div>
   </div>
 </template>
 
 <script setup>
-// const magicData = ref(null);
-// const cardsUrl = "https://api.magicthegathering.io/v1/cards";
+import { RouterLink } from "vue-router";
+import infoIcon from "../components/iconics/infoIcon.vue";
+import cardIcon from "../components/iconics/cardIcon.vue";
 
-// axios.get(cardsUrl).then((response) => {
-//   const uniqueCards = response.data.cards.filter(
-//     (card, index, self) => index === self.findIndex((c) => c.name === card.name)
-//   );
-//   magicData.value = { cards: uniqueCards };
-// });
+const links = [
+  {
+    name: "CARDS",
+    path: "/cards",
+    icon: cardIcon,
+  },
+  {
+    name: "INFO",
+    path: "/info",
+    icon: infoIcon,
+  },
+  {
+    name: "CARDS",
+    path: "/cards",
+    icon: cardIcon,
+  },
+  {
+    name: "INFO",
+    path: "/info",
+    icon: infoIcon,
+  },
+  {
+    name: "CARDS",
+    path: "/cards",
+    icon: cardIcon,
+  },
+  {
+    name: "INFO",
+    path: "/info",
+    icon: infoIcon,
+  },
+];
 </script>

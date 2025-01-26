@@ -9,6 +9,7 @@
         v-for="card in cardsData.cards"
         :key="card.id"
       >
+        <p class="text-white">{{ card.name.toUpperCase() }}</p>
         <img class="w-60" :src="card.imageUrl" alt="" />
       </div>
     </div>
@@ -21,7 +22,6 @@ import axios from "axios";
 
 const cardsData = ref(null);
 const cardsUrl = "https://api.magicthegathering.io/v1/cards";
-
 axios.get(cardsUrl).then((response) => {
   const uniqueCards = response.data.cards.filter(
     (card, index, self) => index === self.findIndex((c) => c.name === card.name)
