@@ -10,5 +10,32 @@
 }
 
 .homeBox {
-  @apply bg-white shadow-lg p-6 w-full max-w-6xl gap-3;
+  @apply bg-white shadow-lg p-10 w-full max-w-6xl;
+}
+
+.slide-in {
+  animation: 0.5s ease-in-out slide-in-animation,
+    0.5s ease-in-out forwards fade-in-animation;
+  opacity: 0;
+  animation-delay: calc(var(--order) * 300ms);
+}
+
+@keyframes slide-in-animation {
+  0% {
+    transform: translateY(30%);
+    pointer-events: none;
+  }
+  100% {
+    transform: none;
+    pointer-events: all;
+  }
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
