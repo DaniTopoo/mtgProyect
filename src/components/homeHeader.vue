@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex gap-3 items-center justify-center bg-black h-16 w-full fixed top-0 left-0 z-50"
+    class="flex gap-1 items-center justify-center bg-black h-16 w-full fixed top-0"
   >
     <RouterLink to="/">
       <img

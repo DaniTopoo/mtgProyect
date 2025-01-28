@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="flex flex-col gap-3 h-full min-h-screen w-full bg-gradient-to-r from-gray-900 to-gray-500 relative"
-  >
-    <HomeHeader class="absolute" />
+  <div class="flex flex-col gap-3 relative h-full w-full no-scrollbar">
+    <HomeHeader />
     <RouterView></RouterView>
   </div>
 </template>

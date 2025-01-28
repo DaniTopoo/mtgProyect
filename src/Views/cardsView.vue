@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-y-auto h-screen mt-12 px-4 scrollbar-custom"
+    class="mt-12 px-4 no-scrollbar"
     :style="{ maxHeight: 'calc(100vh - 4rem)' }"
   >
     <div v-if="cardsData" class="gap-3 grid grid-cols-6 mt-10">
@@ -29,25 +29,3 @@ axios.get(cardsUrl).then((response) => {
   cardsData.value = { cards: uniqueCards };
 });
 </script>
-
-<style scoped>
-/* Personaliza el scrollbar */
-.scrollbar-custom::-webkit-scrollbar {
-  width: 10px;
-}
-
-.scrollbar-custom::-webkit-scrollbar-track {
-  background: #333333;
-  border-radius: 10px;
-}
-
-.scrollbar-custom::-webkit-scrollbar-thumb {
-  background: #ff7f50;
-  border-radius: 10px;
-  transition: background 0.3s ease;
-}
-
-.scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
-}
-</style>
