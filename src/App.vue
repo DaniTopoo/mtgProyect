@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-3 relative h-full w-full no-scrollbar">
+  <div class="flex flex-col gap-3 relative h-full w-full">
     <HomeHeader />
     <RouterView></RouterView>
   </div>

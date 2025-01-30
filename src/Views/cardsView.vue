@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="mt-12 px-4 no-scrollbar"
-    :style="{ maxHeight: 'calc(100vh - 4rem)' }"
-  >
+  <div class="mt-12 px-4" :style="{ maxHeight: 'calc(100vh - 4rem)' }">
     <div v-if="cardsData" class="gap-3 grid grid-cols-6 mt-10">
       <div
         class="flex flex-col items-center"
