@@ -24,12 +24,19 @@
 import { RouterLink } from "vue-router";
 import infoIcon from "../components/iconics/infoIcon.vue";
 import cardIcon from "../components/iconics/cardIcon.vue";
+import magicIcon from "../components/iconics/magicIcon.vue";
+import setsIcon from "../components/iconics/setsIcon.vue";
 
 const links = [
   {
     name: "CARDS",
     path: "/cards",
-    icon: cardIcon,
+    icon: magicIcon,
+  },
+  {
+    name: "SETS",
+    path: "/sets",
+    icon: setsIcon,
   },
   {
     name: "INFO",
@@ -39,7 +46,12 @@ const links = [
   {
     name: "CARDS",
     path: "/cards",
-    icon: cardIcon,
+    icon: magicIcon,
+  },
+  {
+    name: "SETS",
+    path: "/sets",
+    icon: setsIcon,
   },
   {
     name: "INFO",
@@ -49,7 +61,12 @@ const links = [
   {
     name: "CARDS",
     path: "/cards",
-    icon: cardIcon,
+    icon: magicIcon,
+  },
+  {
+    name: "SETS",
+    path: "/sets",
+    icon: setsIcon,
   },
   {
     name: "INFO",

@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex gap-1 items-center justify-center bg-black h-16 w-full fixed top-0"
-  >
+  <div class="flex gap-1 items-center justify-center bg-black">
     <RouterLink to="/">
       <img
         class="h-14 w-52 transition-transform duration-300 ease-in-out hover:scale-105"
@@ -24,12 +22,18 @@
 import { RouterLink } from "vue-router";
 import infoIcon from "../components/iconics/infoIcon.vue";
 import cardIcon from "../components/iconics/cardIcon.vue";
+import setsIcon from "./iconics/setsIcon.vue";
 
 const links = [
   {
     name: "CARDS",
     path: "/cards",
     icon: cardIcon,
+  },
+  {
+    name: "SETS",
+    path: "/sets",
+    icon: setsIcon,
   },
   {
     name: "INFO",

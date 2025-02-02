@@ -1,5 +1,5 @@
 <template>
-  <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+  <svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="#000000">
     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
@@ -7,19 +7,47 @@
       stroke-linejoin="round"
     ></g>
     <g id="SVGRepo_iconCarrier">
-      <defs></defs>
-      <path
-        class="a"
-        d="M8.85,22.3653l.9925-9.8084s1.1677,6.8309,2.2769,7.94c.5839-.1751,2.6273-.8757,2.6273-.8757,1.1676-3.0359,2.2769-12.26,2.2769-12.26s.9925,9.2829,1.9851,11.3263c.6422-.1167,3.1526-.35,3.1526-.35C23.0951,15.9431,24.0876,4.5,24.0876,4.5s1.226,11.3847,2.1018,13.8368c.7006.0584,2.9775.4087,2.9775.4087,1.0509-2.2769,2.2186-11.3847,2.2186-11.3847S32.4364,17.753,33.4289,19.738c.8174.1752,2.5688.8174,2.5688.8174,1.2845-1.518,2.3937-7.765,2.3937-7.765l.759,9.6333S26.9191,26.6857,24.2919,43.5C21.9274,26.7732,8.85,22.3653,8.85,22.3653Z"
-      ></path>
+      <g fill="none">
+        <path
+          d="M53.376 97.847S66.54 87.483 90.409 87.483"
+          style="
+            fill: #000000;
+            fill-opacity: 0;
+            stroke: #000000;
+            stroke-width: 8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 6;
+            paint-order: stroke fill markers;
+          "
+        ></path>
+        <path
+          d="M61.1 93.28s-5.951 2.299-5.951-27.057c0-41.015-3.391 31.71-3.391 31.71m19.014-8.108 4.116-53.394s1.363 50.714 4.733 50.714m41.488 2.286-4.122-53s-1.363 50.714-4.733 50.714m-9.954.345S97.666 86.47 96.085 20c0 0-.913 50.417-5.649 67.484m40.572 5.633s5.292 2.461 5.292-26.894c0-41.015 3.391 31.71 3.391 31.71"
+          style="
+            fill: #000000;
+            fill-opacity: 0;
+            stroke: #000000;
+            stroke-width: 8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 6;
+            paint-order: stroke fill markers;
+          "
+        ></path>
+        <path
+          d="M51.757 97.824S95.399 108.027 95.399 172c0 0-4.613-58.49 44.285-74.118m-.006-.035s-13.165-10.364-37.033-10.364"
+          style="
+            fill: #000000;
+            fill-opacity: 0;
+            stroke: #000000;
+            stroke-width: 8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 6;
+            paint-order: stroke fill markers;
+          "
+        ></path>
+      </g>
     </g>
   </svg>
 </template>
-<style>
-.a {
-  fill: white;
-  stroke: #fff;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-</style>
